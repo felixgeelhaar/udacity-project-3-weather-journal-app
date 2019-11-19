@@ -70,7 +70,7 @@ button.addEventListener('click', () => {
     })
     .then(({temp, date, content}) => updateUI(temp, date, content))
     .catch(e => {
-      // There can be proper error handling with UI 
-      console.error(e))
-    }
+      // There can be proper error handling with UI
+      console.error(e)
+    })
 })
